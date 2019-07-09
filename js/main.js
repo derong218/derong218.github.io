@@ -374,7 +374,7 @@ function redraw(fast) {
     var minRadius = 0, maxRadius = 500;
     var minOffset = -500, maxOffset = 500;
     var minBlur = 0, maxBlur = 500;
-    var minOutlineW = 0, maxOutlineW = 99;
+    var minOutlineW = 0, maxOutlineW = 50;
 
     var colorFill = $("#color-picker-fill-input");
     var outlineFill = $("#color-picker-outline-input");
